@@ -42,7 +42,7 @@ const useStyles = makeStyles({
 
 const md5 = require("blueimp-md5");
 const publickey = "c2c23a089a3e1f6b0c9caab777e30000";
-const privatekey = "bd161e7d2f5d09fd30fbcdc0db7b98c8be1ae5da";
+const privatekey = //your Private Key
 const ts = new Date().getTime();
 const stringToHash = ts + privatekey + publickey;
 const hash = md5(stringToHash);
